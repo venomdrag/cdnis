@@ -1,0 +1,436 @@
+/* Empty. Add your own CSS if you like */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/HelveticaNeue/HelveticaNeue.woff2') format('woff2'),
+         url('fonts/HelveticaNeue/HelveticaNeue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/site-icons/icomoon.eot?h5ii8u');
+    src:  url('fonts/site-icons/icomoon.eot?h5ii8u#iefix') format('embedded-opentype'),
+          url('fonts/site-icons/icomoon.ttf?h5ii8u') format('truetype'),
+          url('fonts/site-icons/icomoon.woff?h5ii8u') format('woff'),
+          url('fonts/site-icons/icomoon.svg?h5ii8u#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youtube:before {
+  content: "\e999";
+}
+.icon-pinterest-with-circle:before {
+  content: "\e904";
+}
+.icon-linkedin-with-circle:before {
+  content: "\e902";
+}
+.icon-vimeo:before {
+  content: "\e917";
+}
+.icon-twitter:before {
+  content: "\e914";
+}
+.icon-instagram-circle:before {
+  content: "\e915";
+}
+.icon-google-plus:before {
+  content: "\e916";
+}
+.icon-facebook:before {
+  content: "\e913";
+}
+.icon-mail:before {
+  content: "\e903";
+}
+.icon-contact:before {
+  content: "\e903";
+}
+.icon-support:before {
+  content: "\e903";
+}
+.icon-newsletter:before {
+  content: "\e903";
+}
+.icon-letter:before {
+  content: "\e903";
+}
+.icon-email:before {
+  content: "\e903";
+}
+.icon-envelop:before {
+  content: "\e903";
+}
+.icon-social:before {
+  content: "\e903";
+}
+.icon-play_arrow:before {
+  content: "\e901";
+}
+.icon-search:before {
+  content: "\e900";
+}
+
+body {
+  cursor: url('https://ionicframework.com/img/finger.png'), auto;
+}
+
+.slider {
+
+}
+
+.button.ng-hide{
+  display:none;
+}
+
+.hp-img-slider {
+    width: 100%;
+}
+
+.slider-pager .slider-pager-page {
+	display: inline-block;
+	margin: 0px 3px;
+	width: 20px;
+	color: #fff;
+	text-decoration: none;
+	opacity: 1;
+	font-size: 20px;
+	background: #fff;
+	border-radius: 50px;
+	height: 20px;
+}
+
+.slider-pager .slider-pager-page.active {
+	width: 20px;
+	height: 20px;
+	background: #fd0002 ;
+	border-radius: 50px;
+	border: 2px solid #fff;
+}
+
+.slider-pager i.icon.ion-record {
+	display: none;
+}
+
+.slider-pager {
+   bottom: 50px;
+}
+
+.bar-footer {
+    background: #fd0002;
+}
+
+.mean-container .mean-bar, .mean-container .mean-bar * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.mean-container a.meanmenu-reveal {
+    width: 24px;
+    height: 26px;
+    padding: 12px 13px 11px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    font-weight: 700;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.mean-container a.meanmenu-reveal span {
+    display: block;
+    background: #fff none repeat scroll 0 0;
+    height: 3px;
+    margin-top: 3px;
+    color: #fff;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.logo-wrapper {
+	margin: 20px 0 0;
+}
+
+.header__name-and-slogan {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__name-and-slogan h1 {
+    text-align: center;
+    width: 80%;
+    margin: 10px auto 15px;
+    color: #df002c;
+    font-family: 'Roboto', sans-serif;
+}
+
+.margin-offset-70 {
+    height: 70px;
+    display: block;
+    width: 100%;
+}
+
+.header__site-name {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.header__site-slogan {
+    color: #df002c;
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+.loading-container.active.default-site-preloader {
+	background: #000;
+}
+
+.loading-container.default-site-preloader .loading {
+    background: none;
+}
+
+.loading-container.default-site-preloader .loading img {
+    width: 70%;
+}
+
+.red-strip {
+	background: #fd0002;
+    height: 2px;
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 36px;
+}
+
+.menu-state-page .bar-header {
+    top: 0;
+    border-top-width: 0;
+    border-bottom-width: 1px;
+    background: none;
+    padding: 0;
+}
+
+.menu-list img {
+	width: 90px;
+}
+
+.row.menu-list {
+    text-align: center;
+}
+
+/*.menu-list-icons-wrapper {
+    margin: 15% 0 0;
+}*/
+
+.menu-list-icons-wrapper span.menu-label {
+    color: #fd0002;
+    display: block;
+}
+
+.menu-list-header {
+    margin: 4% 0 0;
+}
+
+.menu-list-header h1 {
+	 text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 26px;
+}
+
+.menu-list-header h1:before {
+    background: #fd0002;
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    top: 44%;
+    left: 0;
+    z-index: -1;
+}
+
+.menu-list-header h1:after {
+    background: #fd0002;
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    top: 44%;
+    right: 0;
+    z-index: -1;
+}
+
+.menu-list-header h1 span {
+    background: #fff;
+    padding: 0 16px;
+    display: inline-block;
+    z-index: 9;
+}
+
+.site-header-bar {
+	border-bottom: #fd0002 3px solid !important;
+    background-color: #303030 !important;
+    background-image: none !important;
+    color: #fff;
+}
+
+.site-header-bar h1 {
+	color: #fff !important;
+}
+
+.site-header-bar .back-to-menu {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    z-index: 9;
+    width: 25px;
+    height: 25px;
+}
+
+.item {
+    background-color: #f5f5f5 !important;
+    padding: 8px;
+    border-color: #dddddd !important;
+    /*margin: 0 0 4px;*/
+    border-left: none !important;
+    border-right: none !important;
+    box-shadow: 0 0 1px #d4d4d4;
+    border-radius: 3px;
+}
+
+.school-info-state-page .item {
+    margin: 0 0 4px;
+}
+
+.whats-going-on-state-page .item p {
+    overflow: overlay;
+    text-overflow: unset;
+    white-space: normal;
+}
+
+a.to-announcement-single {
+    float: right;
+    color: #303030;
+    width: 30px;
+    text-align: right;
+    height: 20px;;
+}
+
+.item:nth-child(0) {
+    border-top: 0;
+}
+
+h1, .h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#map {    
+	 width: 100%;
+    height: 300px;
+}
+
+.list .item.item-accordion {
+    line-height: 38px;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: .09s all linear;
+    margin: 0 0 2px 10px !important;
+    border-left: 1px solid #dddddd !important;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+.list .item.item-accordion:last-child {
+    margin-bottom: 4px !important;
+}
+
+.list .item.item-accordion.ng-hide {
+  	line-height: 0px;
+}
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+  	display: block !important;
+}
+
+.school-info-state-page .list .icon {
+    color: rgb(255, 0, 0);
+}
+
+.social-media-list li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    margin: 6px 0;
+}
+
+.social-media-list a {
+    color: #cd313b;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.binded-html img {
+    width: 100% !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+
+.single-flash-message-state-page h3 {
+    font-size: 16px;
+}
+
+.single-flash-message-state-page table {
+    width: 100% !important;
+}
+
+.header__name-and-slogan {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20%;
+}
+
+.announce-list-link {
+    text-decoration: none;
+    color: #303030;
+    display: block;
+    width: 100%;
+}
+
+.back-to-menu i,
+.item a i,
+.item-accordion.item a {
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+}

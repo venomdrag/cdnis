@@ -1,0 +1,10 @@
+<div class="bar bar-header bar-light site-header-bar">
+	<a ui-sref="flash" class="back-to-menu"><i class="icon ion-chevron-left"></i></a>
+  <h1 class="title">Flash</h1>
+</div>
+<ion-view view-title="Urgent Message" class="single-flash-message-state-page dashboard"> 
+  	<ion-content class="has-header padding">	
+		<h1 class="padding-vertical">{{single.title}}</h1>  		
+		<div class="" ng-if="single" ng-bind-html="single.body | externalLinks | to_trusted"></div>		
+  	</ion-content>
+</ion-view>

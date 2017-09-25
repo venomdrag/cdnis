@@ -1,0 +1,16 @@
+<div class="bar bar-header bar-light site-header-bar">
+	<a ui-sref="news" class="back-to-menu"><i class="icon ion-chevron-left"></i></a>
+  <h1 class="title">What's Going on at CDNIS?</h1>
+</div>
+<ion-view view-title="What's Going on at CDNIS?" class="whats-going-on-state-page dashboard"> 
+  	<ion-content class="has-header">	
+		<ul class="list list-announcements">
+		    <li class="item" ng-repeat="item in news" ng-click="openWhatsGoing(item.nid)">
+			    <div class = "row">
+				   <div class = "col col-90" style="text-align: center;font-weight: bold;"><p>{{item.title}}</p></div>
+				   <div class = "col col-10"><a ui-sref="news-single({id: item.nid})" class="to-announcement-single"><i class="icon ion-chevron-right"></i></a></div>
+				</div>		    	
+		    </li>	    
+		</ul>	 	  			
+  	</ion-content>
+</ion-view>

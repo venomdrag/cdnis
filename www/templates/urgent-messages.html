@@ -1,0 +1,17 @@
+<div class="bar bar-header bar-light site-header-bar">
+	<a ui-sref="menu" class="back-to-menu"><i class="icon ion-chevron-left"></i></a>
+  <h1 class="title">Announcements</h1>
+</div>
+<ion-view view-title="Urgent Messages" class="urgent-messages-state-page dashboard"> 
+  	<ion-content class="has-header">	
+		<ul class="list list-announcements" ng-if="announcements">
+		    <li class="item" ng-repeat="item in announcements" ng-click="openAnnouncement(item.id)">
+			    <div class = "row">
+				   <div class = "col col-10"><i class="icon ion-funnel""></i></div>
+				   <div class = "col col-80" style="text-align: center;font-weight: bold;"><p>{{item.title}}</p></div>
+				   <div class = "col col-10"><a ui-sref="single-urgent-message({id: item.id})" class="to-announcement-single"><i class="icon ion-chevron-right"></i></a></div>
+				</div>		    	
+		    </li>
+		</ul>	  				
+  	</ion-content>
+</ion-view>

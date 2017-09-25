@@ -1,0 +1,10 @@
+<div class="bar bar-header bar-light site-header-bar">
+	<a ui-sref="urgent-messages" class="back-to-menu"><i class="icon ion-chevron-left"></i></a>
+  <h1 class="title">Announcement</h1>
+</div>
+<ion-view view-title="Urgent Message" class="single-urgent-message-state-page dashboard"> 
+  	<ion-content class="has-header padding">	
+		<h1 class="padding-vertical">{{message.title}}</h1>  		
+		<div class="" ng-bind-html="message.body"></div>		
+  	</ion-content>
+</ion-view>

@@ -1,0 +1,43 @@
+<div class="bar bar-header bar-light site-header-bar">
+	<a ui-sref="menu" class="back-to-menu"><i class="icon ion-chevron-left"></i></a>
+  <h1 class="title">Contact</h1>
+</div>
+<ion-view view-title="Contact" class="contact-state-page dashboard"> 
+  	<ion-content class="padding has-header">	
+	  	<div id="map" data-tap-disabled="true"></div>	
+	  	<div class="contact-page-info padding-vertical">
+	  		<div class = "row">
+			   <div class = "col col-33"><strong>Address:</strong></div>
+			   <div class = "col col-67">{{contacts.full_address}}</div>
+			</div>
+	  		<div class = "row">
+			   <div class = "col col-33"><strong>Address in Chinese:</strong></div>
+			   <div class = "col col-67">{{contacts.full_address_chinese}}</div>
+			</div>	
+	  		<div class = "row">
+			   <div class = "col col-33"><strong>Telephone:</strong></div>
+			   <div class = "col col-67">{{contacts.telephone}}</div>
+			</div>	
+	  		<div class = "row">
+			   <div class = "col col-33"><strong>Fax:</strong></div>
+			   <div class = "col col-67">{{contacts.fax}}</div>
+			</div>
+	  		<div class = "row">
+			   <div class = "col col-33"><strong>Admissions Email:</strong></div>
+			   <div class = "col col-67">{{contacts.admission_email}}</div>
+			</div>
+	  		<div class = "row">
+			   <div class = "col col-33"><strong>HR Email:</strong></div>
+			   <div class = "col col-67">{{contacts.hrmail}}</div>
+			</div>	
+	  		<div class = "row">
+			   <div class = "col col-33"><strong>Finance Email:</strong></div>
+			   <div class = "col col-67">{{contacts.financemail}}</div>
+			</div>
+	  		<div class = "row">
+			   <div class = "col col-33"><strong>Email:</strong></div>
+			   <div class = "col col-67">{{contacts.email}}</div>
+			</div>																
+	  	</div>		
+  	</ion-content>
+</ion-view>

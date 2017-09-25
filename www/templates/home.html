@@ -1,0 +1,25 @@
+<ion-view view-title="Welcome to CDNIS">
+  	<ion-content>
+		 <ion-slide-box ng-if="slides" on-slide-changed="slideHasChanged($index)" auto-play="true" does-continue="false" slide-interval="3000">
+			<ion-slide class="no-animate" ng-repeat="slide in slides">
+				<img src="{{slide.image}}" class="hp-img-slider img-responsive"/>
+			</ion-slide>
+		</ion-slide-box>
+    <div class="logo-wrapper">
+      <img src="img/logo.png" class="main-logo-img center" style="width: 50%;align-items: center"/>
+    </div>		
+    <div class="header__name-and-slogan" id="name-and-slogan">
+			<h1 class="header__site-name" id="site-name">
+				<span>Canadian International School of Hong Kong</span>
+		  	</h1>  
+		  	<div class="header__site-slogan" id="site-slogan">香港加拿大國際學校</div>  	
+    </div>
+  	</ion-content>
+</ion-view>
+ <div class="bar bar-footer">
+   <div class="mean-container">
+     <div class="mean-bar">
+       <a ui-sref="menu" class="meanmenu-reveal"><span></span><span></span><span></span></a>
+     </div>
+   </div>
+ </div>

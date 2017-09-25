@@ -1,0 +1,22 @@
+<div class="bar bar-header bar-light site-header-bar">
+	<a ui-sref="menu" class="back-to-menu"><i class="icon ion-chevron-left"></i></a>
+  <h1 class="title">News</h1>
+</div>
+<ion-view view-title="News" class="news-state-page dashboard"> 
+  	<ion-content class="has-header">	
+		<ul class="list list-announcements">
+		    <li class="item" ng-click="openFlashMenu('whats-going-on')">
+			    <div class = "row">
+				   <div class = "col col-90" style="text-align: center;font-weight: bold;"><p>What's Going on at CDNIS?</p></div>
+				   <div class = "col col-10"><a ui-sref="whats-going-on" class="to-announcement-single"><i class="icon ion-chevron-right"></i></a></div>
+				</div>		    	
+		    </li>
+		    <li class="item" ng-click="openFlashMenu('flash')">
+			    <div class = "row">
+				   <div class = "col col-90" style="text-align: center;font-weight: bold;"><p>Flash</p></div>
+				   <div class = "col col-10"><a ui-sref="flash" class="to-announcement-single"><i class="icon ion-chevron-right"></i></a></div>
+				</div>		    	
+		    </li>		    
+		</ul>	 	  			
+  	</ion-content>
+</ion-view>
